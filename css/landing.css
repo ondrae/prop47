@@ -1,0 +1,239 @@
+ /* Landing Page */
+/* This is mobile first CSS */
+
+/* Time to build a real pallete or things are going to get hard to handle. */
+/* http://paletton.com/palette.php?uid=33n0u0kzDIekvM9qoJxHCuhInnu */
+
+html, body {
+	height: 100%;
+}
+
+/*							*/
+/* 		Cover Image 		*/
+/*							*/
+
+
+.cover {
+	height: auto;
+}
+
+.cover-landing--basic {
+	height: 100%;
+}
+
+.cover-landing--basic .cover-screen {
+	background-color: rgba(35,52,69,1);
+	height: auto;
+}
+
+.cover-landing--basic .cover-screen .cover-text {
+	color: white;
+	height: 100%;
+	padding: 4em 3em 2em 3em;
+}
+
+.cover-landing--basic .cover-screen .cover-text h1 {
+	font-weight: 500;
+}
+
+.cover-text div {
+	padding: 0;
+}
+
+.cover-text .scroll-prompt {
+	display: block;
+	color: rgba(255,255,255, .5);
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	padding-bottom: 2em;
+}
+
+.state-info {
+	width: 100%;
+	display: inline-block;
+	margin: 1em 0;
+}
+
+.state-icon {
+	height: 6em;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 1em;
+}
+
+.state-disclaimer {
+	font-size: 16px;
+	width: 70%;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.main-cta {
+	margin-top: -1em;
+}
+
+.second-cta {
+	font-size: 24px;
+	font-weight: 300;
+}
+
+.btn-apply {
+	font-size: 24px;
+	font-weight: 300;
+	padding: .75em;
+	width: 75%;
+}
+
+.student-landing { ... }
+.elderly-landing { ... }
+
+/*										*/
+/* 		Second Section of Content 		*/
+/*										*/
+
+.second-section {
+	padding: 2em 0 4em 0;
+}
+
+.section-left {
+	text-align: left;
+	padding: 2em;
+}
+
+.section-left .calfresh-logo {
+	padding: 2em;
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+.section-right {
+	text-align: left;
+	padding: 2em;
+}
+
+/*							*/
+/* 		Third Section		*/
+/*							*/
+
+
+.third-section {
+	text-align: left;
+	color: white;
+	background-color: #05A3C6;
+	padding: 2em 1em;
+}
+
+.third-section .steps-intro {
+	padding: 0 0 3em 0;
+}
+
+.third-section .steps-intro h2 {
+	padding-bottom: 1em;
+}
+
+.third-section .step-icon {
+	display: block;
+	background-color: white;
+	width: 33%;
+	max-width: 75%;	
+	margin: 0 auto;
+	padding: 0;
+}
+
+.step-text {
+	margin: 3em 0;
+}
+
+/*							*/
+/* 		Fourth Section		*/
+/*							*/
+
+
+.fourth-section {
+	text-align: left;
+	background-color: #E4E6E5;
+	padding: 2em 2em 4em 2em;
+}
+
+
+/*							*/
+/* 		Media Queries 		*/
+/*							*/
+
+
+/* 	Extra small devices (phones, less than 768px):
+	No media query since this is the default in Bootstrap */
+
+/* 	Small devices (tablets, 768px and up)
+	Rename to @screen-sm-min when we implement asset management
+*/
+
+/* Landscape */
+@media (max-width: 500px) and (orientation: landscape) {
+	.main-cta {
+		margin-top: -1em;
+	}
+}
+
+/* Desktop*/
+@media (min-width: 768px) {
+	.cover-landing--basic {
+		background: url(../images/cover.jpg) #233445 center top no-repeat;
+	}
+	.cover-landing--basic .cover-screen {
+		background: linear-gradient(to right, rgba(35,52,69, .75), rgba(35,52,69,0.0));
+		height:100%;
+	}
+	.cover-landing--basic .cover-screen .cover-text {
+		text-align: left;
+		height: 100%;
+		padding: 5em 0 5em 1em;
+	}
+	.second-section {
+		padding: 2em 0 4em 0;
+	}
+	.third-section {
+		padding: 3em 0;
+	}
+	.main-cta {
+		margin-top: 10%;
+		font-weight: 300;
+	}
+	.second-cta {
+		font-weight: 300;
+		line-height: normal;
+	}
+	.section-left {
+		text-align: left;
+	}
+	.calfresh-logo {
+		padding: 2em;
+		width: 100%;
+		text-align: left;
+	}
+	.section-right {
+		height: 100%;
+		text-align: left;
+	}
+	.steps-intro h2 {
+		font-size: 42px;
+	}
+	.third-section {
+		text-align: center;
+	}
+	.third-section .steps-intro h2 {
+		padding-bottom: 0;
+	}
+	.fourth-section {
+		text-align: center;
+	}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) { ... }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) { ... }
+

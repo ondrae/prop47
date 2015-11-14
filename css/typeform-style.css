@@ -1,0 +1,320 @@
+html, body {
+	height: 100%;
+}
+
+
+/*									*/
+/* 		Typeform Button Styles 		*/
+/*									*/
+
+
+.btn-typeform {
+	margin-top: .5em;
+	padding: 5px 20px 0;
+	font-size: 25px;
+	line-height: 36px;
+	height: 50px;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	text-align: center;
+	max-width: 100%;
+	overflow: hidden;
+	box-shadow: inset 0 1px 0 rgba(255,255,255,.35);
+	-webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.35);
+	-moz-box-shadow: inset 0 1px 0 rgba(255,255,255,.35);
+	text-shadow: rgba(0,0,0,.3) 0 -1px 1px;
+}
+
+.btn-typeform:hover, .btn-typeform:active {
+	-moz-transition: background-color ease-out 100ms 0ms;
+	-webkit-transition: background-color ease-out 100ms 0ms;
+	transition: background-color ease-out 100ms 0ms;
+	cursor: pointer;
+}
+.btn-typeform:focus {
+	outline: 0;
+}
+
+.btn-typeform:active {
+	-moz-transition: background-color ease-out 100ms 0ms;
+	-webkit-transition: background-color ease-out 100ms 0ms;
+	transition: background-color ease-out 100ms 0ms;
+	border: 0;
+	line-height: 40px;
+	box-shadow: inset 0 2px 2px rgba(0,0,0, .8);
+	cursor: pointer;
+}
+
+/* Typeform Button - Primary Action Theme */
+
+.btn-typeform-primary {
+	width: 100%;
+	color: #b3f0fd;
+	background-color: #05a3c6;
+	border-top: 1px solid #048fad;
+	border-left: 1px solid #03667b;
+	border-right: 1px solid #03667b;
+	border-bottom: 1px solid #023d4a;
+}
+
+.btn-typeform-primary:hover, .btn-typeform-primary:active {
+	color: #b3f0fd;
+	background-color: #06ccf8;
+};
+
+.btn-typeform-primary:focus {
+	color: #b3f0fd;
+}
+
+.btn-typeform-primary:visited {
+	color: #b3f0fd;
+}
+
+.btn-typeform-primary:active {
+	border-bottom: 1px solid #025163;
+	color: #b3f0fd;
+	background-color: #06ccf8;
+}
+
+/* Typeform Button - Secondary Action Theme */
+
+.btn-typeform-secondary {
+	width: 100%;
+	color: #FFF0CC;
+	background-color: #FFB100;
+	border-top: 1px solid #FFBF2D;
+	border-left: 1px solid #F1A800;
+	border-right: 1px solid #F1A800;
+	border-bottom: 1px solid #BB8200;
+}
+
+.btn-typeform-secondary:hover, .btn-typeform-secondary:active {
+	color: #FFF0CC;
+	background-color: #FFBF2D;
+};
+
+.btn-typeform-secondary:focus {
+	color: #FFF0CC;
+}
+
+.btn-typeform-secondary:visited {
+	color: #FFF0CC;
+}
+
+.btn-typeform-secondary:active {
+	border-bottom: 1px solid #BB8200;
+	color: #FFF0CC;
+	background-color: #FFBF2D;
+}
+
+/* Typeform - Third Action Theme */
+
+.btn-typeform-tertiary {
+	width: 100%;
+	color: #FFD3CD;
+	background-color: #FF1E00;
+	border-top: 1px solid #FF3D24;
+	border-left: 1px solid #F11C00;
+	border-right: 1px solid #F11C00;
+	border-bottom: 1px solid #BB1600;
+}
+
+.btn-typeform-tertiary:hover, .btn-typeform-tertiary:active {
+	color: #FFD3CD;
+	background-color: #FF3D24;
+};
+
+.btn-typeform-tertiary:focus {
+	color: #FFD3CD;
+}
+
+.btn-typeform-tertiary:visited {
+	color: #FFD3CD;
+}
+
+.btn-typeform-tertiary:active {
+	border-bottom: 1px solid #025163;
+	color: #FFD3CD;
+	background-color: #FF3D24;
+}
+
+
+/*							*/
+/* 		Background 			*/
+/*							*/
+
+body {
+	background-color: #E4E6E5;
+}
+
+
+.county-selection .container {
+	padding-top: 5%;
+}
+
+/* The h3 element that serves as the question or prompt */
+/* The size should change based on media query*/
+
+.typeform-county-question {
+	color: #313131;
+	font-size: 20px;
+}
+
+.description {
+	color: #313131;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 160%;
+	text-align: left;
+	margin: 30px 0;
+	-webkit-font-smoothing: antialiased;
+}
+
+.benefitscal {
+	color: #313131;
+	font-weight: 500;
+	line-height: 160%;
+	text-align: left;
+	margin: 30px 0;
+	-webkit-font-smoothing: antialiased;
+}
+
+.benefitscal b {
+	color: #990000;
+	margin-bottom: 1em;
+}
+
+/*											   				                   */
+/* 		 County Selection Typeform Style Dropdown		   */
+/*	                     													   	*/
+/* 		 Default State		   */
+
+.btn-group {
+	width: 100%;
+}
+
+.btn-group>.btn:first-child, .open>.dropdown-toggle.btn-default:focus {
+	/* typeform chimpy theme default blue */
+	color: #059FC1;
+	font-weight: 500;
+	width: 100%;
+	/* explicit over-ride */
+	margin-left: 0;
+	text-align: left;
+	background: rgba(0,0,0,0);
+	border: none;
+	border-radius: 0;
+	border-bottom: 1px solid;
+}
+
+.btn-group>.btn-lg {
+	font-size: 20px;
+}
+
+.btn-lg .caret {
+	margin-top: 15px;
+}
+
+/* 		 Active State		   */
+
+.btn-group.open .dropdown-toggle, .btn-group .dropdown-toggle:active {
+	box-shadow: none;
+}
+
+
+/* 	Dropdown menu styles are currently applied using custom classes.
+	To be consistent with the approach applied above, we should refactor
+	to use only the extant Bootstrap classes.
+
+*/
+
+.dropdown-menu {
+	width: 100%;
+	background-color: #E4E6E5;
+	border: none;
+	box-shadow: none;
+}
+
+.dropdown-menu>li>a {
+	padding: 0px 10px;
+}
+
+.dropdown-menu .typeform-county {
+	font-size: 16px;
+	background-color: #DEE0DF;
+	padding: .5em;
+	border: 1px solid #CCCCCC;
+	border-radius: 2px;
+	margin: .2em;
+}
+
+.dropdown-menu .typeform-county a, .dropdown-menu .typeform-county a:hover, .dropdown-menu .typeform-county a:active {
+	color: #059FC1;
+}
+
+.dropdown-menu .typeform-county:hover, .dropdown-menu .typeform-county:active, .dropdown-menu .typeform-county:focus {
+	background-color: #D3D5D4;
+	border-color: #BBBBBB;
+}
+
+.dropdown-menu>li>a:hover {
+	background-color: #D3D5D4;
+}
+
+/* Ok Button */
+
+.county-selection .btn-typeform-primary {
+	width: auto;
+	margin-top: 1em;
+	font-weight: 700;
+	color: #b3f0fd;
+	background-color: #05a3c6;
+	border-radius: 3px;
+	border-top: 1px solid #03667b;
+	border-left: 1px solid #03667b;
+	border-right: 1px solid #03667b;
+	border-bottom: 1px solid #023d4a;
+	text-shadow: none;
+}
+
+.btn-typeform-primary:hover, .btn-typeform-primary:focus {
+	color: #b3f0fd;
+	background-color: #06ccf8;
+}
+
+.btn-typeform-primary.not-active {
+	pointer-events: none;
+	cursor: default;
+	color: #AAAAAA;
+	background-color: #DDDDDD;
+	border-color: #AAAAAA;
+}
+
+
+/* */
+
+@media (min-width: 768px) {
+	.cover-contact--basic {
+		background: url(/images/cover-contact.jpg) #233445 center no-repeat;
+	   -webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    -o-background-size: cover;
+	    background-size: cover;
+	}
+	.cover-contact--basic .cover-screen {
+		background: rgba(35,52,69, .66);
+		height:100%;
+	}
+	.cover-contact--basic .cover-screen .cover-text {
+		text-align: center;
+		height: 100%;
+		padding: 10% 0 30% 0;
+	}
+	.btn-typeform-primary {
+		width: 50%;
+	}
+	.btn-typeform-secondary, .btn-typeform-tertiary {
+		width: auto;
+		max-width: 75%;
+	}
+}

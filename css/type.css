@@ -1,0 +1,44 @@
+/* Typography for GetCalFresh.org */
+
+/* 	The visual identity of GetCalFresh.org is oriented around
+	an off-the-shelf Typeform theme.
+
+*/
+
+h1, h2  {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+}
+
+h3, h4, h5 {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 500;
+}
+
+p, b, a, i, button, ul, li, small, span {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+p {
+	font-size: 18px;
+	font-weight: 300;
+}
+
+/* 	Extra small devices (phones, less than 768px):
+	No media query since this is the default in Bootstrap */
+
+/* 	Small devices (tablets, 768px and up)
+	Rename to @screen-sm-min when we implement asset management
+*/
+
+@media (min-width: 768px) {
+	h1 {
+		font-size: 56px;
+	}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) { ... }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) { ... }

@@ -1,0 +1,103 @@
+html, body {
+	height: 100%;
+}
+
+/* N A V */
+
+.home-btn, .home-btn:hover {
+  display: inline-block;
+  color: white;
+  padding: .25em 1em;
+  border: 1px solid #fff;
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+
+/*							*/
+/* 		Cover Image 		*/
+/*							*/
+
+
+.cover {
+	height: auto;
+}
+
+.cover-secondary {
+	height: 100%;
+}
+
+.cover-secondary .cover-screen {
+	background-color: rgba(35,52,69,1);
+	height:auto;
+}
+
+.cover-secondary .cover-screen .cover-text {
+	text-align: left;
+	color: white;
+	height: 100%;
+	padding: 2em;
+}
+
+.cover-secondary .cover-screen .cover-text h1 {
+	font-weight: 500;
+}
+
+.cover-text div {
+	padding: 0;
+}
+
+.second-section {
+	padding: 2em 1em;
+}
+
+.second-section ul {
+	margin: 1em 0;
+	font-size: 18px;
+	text-align: left;
+}
+
+.second-section ul li {
+	margin: .5em 0;
+}
+
+@media (min-width: 768px) {
+	.home-btn {
+		display: none;
+	}
+	.cover-secondary.cover-contact {
+		background: url(/images/cover-contact.jpg) #233445 center no-repeat;
+	   -webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    -o-background-size: cover;
+	    background-size: cover;
+	}
+	.cover-secondary.cover-docs {
+		background: url(/images/cover-docs.jpg) #233445 bottom no-repeat;
+	   -webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    -o-background-size: cover;
+	    background-size: cover;
+	}
+	.cover-secondary.cover-privacy {
+		background: url(/images/cover-contact.jpg) #233445 center no-repeat;
+	   -webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    -o-background-size: cover;
+	    background-size: cover;
+	}
+	.cover-secondary .cover-screen {
+		background: rgba(35,52,69, .66);
+		height:100%;
+	}
+	.cover-secondary .cover-screen .cover-text {
+		text-align: left;
+		height: 100%;
+		padding: 5em 0 5em 2em;
+	}
+	.second-section {
+		text-align: left;
+		padding-top: 4em;
+		padding-bottom: 4em;
+	}
+}
